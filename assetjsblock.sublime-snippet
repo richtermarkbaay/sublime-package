@@ -1,0 +1,14 @@
+<snippet>
+        <content>
+
+<![CDATA[
+{% block javascripts %}
+    {% javascripts '@[your]Bundle/Resources/public/js/*' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+]]>
+
+</content>
+        <tabTrigger>assetjsblock</tabTrigger>
+</snippet>

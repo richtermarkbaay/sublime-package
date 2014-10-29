@@ -1,0 +1,14 @@
+<snippet>
+        <content>
+
+<![CDATA[
+{% block stylesheets %}
+    {% stylesheets 'bundles/[acme_foo]/css/*' filter='cssrewrite' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+{% endblock %}
+]]>
+
+</content>
+        <tabTrigger>assetcssblock</tabTrigger>
+</snippet>
